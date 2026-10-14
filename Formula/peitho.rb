@@ -1,23 +1,23 @@
 class Peitho < Formula
   desc "HTML-native presentation tool with Markdown as the source of truth"
   homepage "https://github.com/mizzy/peitho"
-  version "1.41.0"
+  version "1.41.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mizzy/peitho/releases/download/v1.41.0/peitho-v1.41.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1e7eb4579953dd3eb877343fbe4151d154454eaa1d796329abeebf6ba1d3c48c"
+      url "https://github.com/mizzy/peitho/releases/download/v1.41.1/peitho-v1.41.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f3b21af9b251bbf619defb601fe806e52e66e3aea359635712be238625a81a4b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mizzy/peitho/releases/download/v1.41.0/peitho-v1.41.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "df453e8c919eaa97e4c6b8157d5860caa4072f8bd14363a9b19e4eefb1241fb8"
+      url "https://github.com/mizzy/peitho/releases/download/v1.41.1/peitho-v1.41.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e277dae2ea54da88dcef3a570b08a72e5afbd0074029f46ab20eb33e5aabd734"
     else
-      url "https://github.com/mizzy/peitho/releases/download/v1.41.0/peitho-v1.41.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b925bde77bbadec9ae834f84ed4befe68b78e5a22ce031c2de5fe18d8c76488c"
+      url "https://github.com/mizzy/peitho/releases/download/v1.41.1/peitho-v1.41.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ce1751b03ef11cf8823ea3c438d1c8d8305d930e6720c3daaf80a882570ba736"
     end
   end
 
